@@ -1,0 +1,133 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
+@media screen and (max-width: 992px)  { div.contentblock {width: 970px;} } 
+
+
+
+.header {
+    height: 15.73px;
+    background: #212121;
+    padding: 13px 70px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+
+justify-content:   right ;
+    
+}
+.header .vl{
+    border-left: 1px solid white;
+    height: 25px;
+ 
+}
+.header .header_link{
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    
+
+}
+
+.menu {
+    background: #FFFFFF;
+    padding: 13px 70px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    
+}
+.menu .menu_link{
+    vertical-align:text-bottom;
+    margin-left: 20px;
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+   
+}
+
+
+.menu .menu_logo{
+    margin-top: -3%;
+}
+.menu .menu_cart{
+  margin-top: -10px;
+right: 0%;
+position: absolute;
+margin-right: 10px; 
+}
+ .hr{
+        margin-top: -3%;
+        border: none; /* Убираем границу */
+        background-color: gray; /* Цвет линии */
+        color: gray; /* Цвет линии для IE6-7 */
+        height: 2px; /* Толщина линии */
+}
+.item{
+    display: flex;
+    min-height: 1126px;
+   
+} 
+.item .item_header{
+    margin-top: 40px;
+    right: 0%;
+    font-weight: bold;
+    font-style: italic;
+    color: gray;
+    position: absolute;
+    margin-right: 266px; 
+    text-align: left;
+}
+.item .item_price{
+    margin-top: 117px;
+    right: 0%;
+    position: absolute;
+    margin-right: 500px; 
+    text-align: right;  
+}
+.item .item_icons{
+    margin-top: 190px;
+    right: 0%;
+    position: absolute;
+    margin-right: 490px; 
+    text-align: right;
+}
+.item .icons_text{
+   list-style-type: none;
+   display: block;
+   line-height: 50px;
+   margin-top: 198px;
+   right: 0%;
+   position: absolute;
+   margin-right: 250px; 
+   text-align: left;
+}
+.item .cart{
+    margin-top: 390px;
+    right: 0%;
+    position: absolute;
+    margin-right: 10px; 
+    text-align: left;
+width: 520px;
+height: 46px;
+text-align: center;
+
+background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+border:none;
+border-radius: 4px;
+font-weight: normal;
+font-size: 14px;
+line-height: 46px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+.item .item_coat{
+    margin-left: 234px;
+    margin-top: 50px;
+}
